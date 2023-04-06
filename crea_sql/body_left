@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta charset = "utf-8">
+<link rel="shortcut icon" href="img/KakaoTalk_20210101_210438090.ico"  />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="color.js"> </script>
+ </head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class = "top">
+<h1>
+    <div class="main_img">
+        <strong>
+            <a href="crea.py" class="saw"> <img src = "img/KakaoTalk_20201213_031432655.gif"  width=200px height=100px></a>
+        </strong>
+    </div main_img>
+    <p class="sub_title_p">
+    <div class="sub_title">
+        since 2015
+    </div sub_title>
+        <input type="button" value="night" onclick="NightDayHandler(this)">
+    <div class ="top_nav">
+        <ul class="top_nav_menu">
+            <li>
+                <div class = "top_nav_title">
+                    <a class = "top_link" href = "crea_sogae.py">CREA</a>
+                </div top_nav_title>
+            </li>
+            <li>
+                <div class = "top_nav_title">
+                    <a class = "top_link" href = "crea_event.py">이벤트</a>
+                </div top_nav_title>
+            </li>
+            <li>
+                <div class = "top_nav_title">
+                    <a class = "top_link" href = "imsi.py">낙서</a>
+                </div top_nav_title>
+            </li>
+            <li>
+                <div class = "top_nav_title_last">
+                    <a class = "top_link" href = "math_diary.py">앱</a>
+                </div top_nav_title_last>
+            </li>
+        </ul top_nav_menu>
+    </div top_nav>
+</h1>
+</div top>
+
+<div class="under_text" style = "height:auto;">
+<div class="left_side">
+<img src = "img/아이디어제보바람.png"  width=250px height=1000px>
+</div left_side>
+
+<div class="main_text">
+    <div class="center">
+   
